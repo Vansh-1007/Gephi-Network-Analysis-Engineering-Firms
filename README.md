@@ -6,7 +6,7 @@ This project analyzes the global connectivity of engineering and architectural f
 
 - **Nodes**: Represent global cities where engineering/architectural firms operate. (856 nodes)
 - **Edges**: Represent connections established by the presence and operations of firms across multiple cities. (705 edges)
-- **Source**: [GaWC Dataset](https://www.lboro.ac.uk/microsites/geography/gawc/datasets/da14.html)
+- **Source**: [GaWC Dataset](https://gawc.lboro.ac.uk/gawc-worlds/gawc-data/dataset-14/)
 
 ### Key Attributes
 1. **Rank**: Indicates the importance of a city based on its total connectivity.
@@ -44,10 +44,15 @@ This project analyzes the global connectivity of engineering and architectural f
 4. **Centralized Influence**: A few cities serve as critical hubs for global operations, dominating metrics like PageRank and Eigenvector Centrality.
 5. **Vulnerability**: Targeting these central cities could disrupt the network's structure.
 
-## Visualization
-The network visualization created using Gephi reveals clustering among cities and highlights key hubs. 
-- High-modularity clusters show distinct regional or sectoral groupings.
-- The absence of clustering coefficient reflects sparse connectivity between nodes.
+## **Visualization**
+
+The network visualization created using **Gephi** reveals clustering among cities and highlights key hubs:
+
+- **High-Modularity Clusters**: These clusters indicate distinct regional or sectoral groupings, showing how certain cities dominate in specific regions or industries.
+- **Sparse Connectivity**: The absence of a clustering coefficient (average clustering coefficient = 0) reflects the sparse nature of connectivity between nodes in the network.
+
+For a deeper dive into the network properties and additional visual insights, please refer to the **detailed report** [report](Report.docx)
+
 
 ## Repository Contents
 - **Dataset**: The original dataset and processed files for analysis.
