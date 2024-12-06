@@ -52,7 +52,7 @@ The network visualization created using **Gephi** reveals clustering among citie
 - **Sparse Connectivity**: The absence of a clustering coefficient (average clustering coefficient = 0) reflects the sparse nature of connectivity between nodes in the network.
 
 For a deeper dive into the network properties and additional visual insights, please refer to the **detailed report** [report](Report.docx)
-
+To see the Gephi Dashboard **Gephi Dashboard**  [Gephi Dashboard](Screenshot 2024-12-06 124742.png)
 
 ## Repository Contents
 - **Dataset**: The original dataset and processed files for analysis.
